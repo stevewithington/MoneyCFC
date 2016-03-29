@@ -1,9 +1,9 @@
 # MoneyCFC
 
-Foreign currency exchange rates based on the [money.js / fx() project](http://openexchangerates.github.io/money.js/)
+Foreign currency exchange rates for CFML/ColdFusion based on the [money.js / fx() project](http://openexchangerates.github.io/money.js/)
 
-	* Requires an AppID from https://openexchangerates.org
-	* Be sure to check the number of requests your account is allotted per month, and select a plan accordingly
+* Requires an AppID from https://openexchangerates.org
+* Be sure to check the number of requests your account is allotted per month, and select a plan accordingly
 
 ## Examples
 
