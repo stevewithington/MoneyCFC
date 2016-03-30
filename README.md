@@ -7,7 +7,7 @@ Foreign currency exchange rates for CFML/ColdFusion based on the [money.js / fx(
 
 ## Examples
 
-```
+```coldfusion
 fx = new money(appid='YourAppIDGoesHere');
 
 // Get latest rates (from prior day)
