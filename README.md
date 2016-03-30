@@ -11,16 +11,16 @@ Foreign currency exchange rates for CFML/ColdFusion based on the [money.js / fx(
 fx = new money(appid='YourAppIDGoesHere');
 
 // Get latest rates (from prior day)
-WriteDump(fx.getExchangeRates());
+fx.getExchangeRates();
 
 // Get historical rates (from December 12, 2012)
-WriteDump(fx.getHistoricalRates(rateDate='2012/12/12'));
+fx.getHistoricalRates(rateDate='2012/12/12');
 
 // Convert 1000.00 from USD to GBP
-WriteDump(fx.convert(amount=1000.00, from='USD', to='GBP'));
+fx.convert(amount=1000.00, from='USD', to='GBP');
 
 // Convert 1000.00 from USD to GBP as of December 12, 2012
-WriteDump(fx.convert(amount=1000.00, from='USD', to='GBP', exchangeRates=fx.getHistoricalRates(rateDate='2012/12/12')));
+fx.convert(amount=1000.00, from='USD', to='GBP', exchangeRates=fx.getHistoricalRates(rateDate='2012/12/12'));
 ```
 
 ## License
