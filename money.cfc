@@ -144,7 +144,7 @@ component persistent="false" accessors="true" output="false" displayname="MoneyC
 		return result;
 	}	
 
-	// usage:  convert(val='100.00', from='USD', to='GBP');
+	// usage:  convert(amount='100.00', from='USD', to='GBP');
 	public string function convert(required any amount, string from='USD', string to='USD', exchangeRates=getExchangeRates()) {
 
 		if ( !IsNumeric(arguments.amount) ) {
